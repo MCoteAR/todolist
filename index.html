@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List</title>
+  <link rel="stylesheet" href="./assets/style.css">
+    <style>
+        .completed {
+            text-decoration: line-through;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <h1>Todo List</h1>
+    
+
+    <input type="text" id="nuevaTarea" placeholder="Agregar nueva tarea">
+    <button id="agregarTareaBtn">Agregar Tarea</button>
+
+  
+    <div id="resumen">
+        <p>Total de tareas: <span id="totalTareas">0</span></p>
+        <p>Tareas completadas: <span id="tareasCompletadas">0</span></p>
+    </div>
+
+ 
+    <ul id="listaTareas"></ul>
+
+
+    <script src="./assets/js/index.js"></script>
+</body>
+</html>
